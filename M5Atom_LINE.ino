@@ -24,7 +24,7 @@ void setup()
 {
     //Serial.begin(115200);
   
-    M5.begin(true, false, true);   //Clear the serial port buffer, set the serial port baud rate to 115200; initialize the LED matrix.  清空串口缓冲区,设置串口波特率为 115200；初始化LED矩阵
+    M5.begin(true, false, true);   //Clear the serial port buffer / set the serial port baud rate to 115200 / initialize the LED matrix.
 
     Serial.println();
     Serial.print("Connecting to ");
